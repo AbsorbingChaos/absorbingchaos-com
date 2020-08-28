@@ -4,7 +4,7 @@ Fancy new [website for Absorbing Chaos](https://absorbingchaos.com). This has go
 
 ## Development
 
-[Hugo](https://gohugo.io/) using the [Syna theme](https://themes.gohugo.io/theme/syna/).
+[Hugo](https://gohugo.io/) using a forked version of the [Syna theme](https://themes.gohugo.io/theme/syna/) located in [the abc-syna](https://github.com/AbsorbingChaos/abc-syna) repository.
 
 ## Deployment
 
