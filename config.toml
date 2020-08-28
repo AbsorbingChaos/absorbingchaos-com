@@ -35,7 +35,7 @@ lastmod = ["lastmod", ":git", "date"]
   # Assets relative to 'static/'
   [params.custom]
     favicon = "favicon.ico"
-    favicon_ico_sizes = "16x16 32x32 96x96"
+    favicon_ico_sizes = "16x16 32x32"
     favicon_png = "favicon.png"
     # favicon_svg = "favicon.svg"
 
@@ -106,20 +106,20 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Another Link"
   weight = 30
 
-[[menu.footer_social]]
-  weight = 20
-  name = "twitter"
-  pre = "fab fa-twitter"
-  url = "https://twitter.com/AbsorbingChaos"
+#[[menu.footer_social]]
+#  weight = 20
+#  name = "twitter"
+#  pre = "fab fa-twitter"
+#  url = "https://twitter.com/AbsorbingChaos"
 
-[[menu.footer_social]]
-  weight = 30
-  name = "linkedin"
-  pre = "fab fa-linkedin-in"
-  url = "https://www.linkedin.com/company/absorbingchaos"
+#[[menu.footer_social]]
+#  weight = 30
+#  name = "linkedin"
+#  pre = "fab fa-linkedin-in"
+#  url = "https://www.linkedin.com/company/absorbingchaos"
 
-[[menu.footer_social]]
-  weight = 40
-  name = "github"
-  pre = "fab fa-github"
-  url = "https://github.com/AbsorbingChaos"
+# [[menu.footer_social]]
+#  weight = 40
+#  name = "github"
+#  pre = "fab fa-github"
+#  url = "https://github.com/AbsorbingChaos"
