@@ -38,3 +38,5 @@ fields:
     - Small
   label: Size
   default: Big
+pages:
+- content/first_post.md
