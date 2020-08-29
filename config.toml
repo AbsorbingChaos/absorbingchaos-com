@@ -1,125 +1,15 @@
 # Site settings
-baseurl = "/"
+baseurl = "https://absorbingchaos.com"
 languageCode = "en-us"
-title = "ABC - Absorb Chaos and Release Potential"
-theme = "syna"
-enableGitInfo = true
-version = "0.17.3"
+theme = "sawmill"
+title = "ABC - Absorb Chaos - Release Potential"
 
-# Google Analytics tracking
-# ABC: no intent to use this feature!
-googleAnalytics = ""
-
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-
-[outputs]
-  home = ["HTML", "JSON"]
-
-[frontmatter]
-date = ["date", "lastmod"]
-lastmod = ["lastmod", ":git", "date"]
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-     unsafe = true
-
-[params]
-  name = "Absorbing Chaos"
-  description = "Technology services inspired by and based on freedom, collaboration, transparency, integrity, and community."
-
-  [params.style]
-    #background = "secondary"
-
-  # Theme customizations
-  # Assets relative to 'static/'
-  [params.custom]
-    favicon = "favicon.ico"
-    favicon_ico_sizes = "16x16 32x32"
-    favicon_png = "favicon.png"
-    # favicon_svg = "favicon.svg"
-
-  # Piwik tracking
-  [params.analytics.piwik]
-    #url = ""
-    #id = ""
-    #domain = "" # Track subdomains via "*.example.com"
-    # Optional hash for integrity check
-    #hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
-
-  # Optional, global disable switch for fontawesome related files
-  # For custom fontawesome js files use the custom.js method
-  [params.fontawesome]
-    disabled = false
-    pro = false
-
-  [params.colors]
-    primary = "#273554"
-    secondary = "#312855"
-    success = "#525e81"
-    info = "#5c5082"
-    warning = "#d29d01"
-    danger = "#d23501"
-    light = "#D0E1F9"
-    dark = "#1E1F26"
-
-# main/prepend/postpend menus are displayed in nav fragment.
-# Keep an eye out for updates. These will be moved out to make navbar more
-# configurable.
-[[menu.main]]
-  url = "/"
-  name = "Home"
-  weight = 10
-
-[[menu.main]]
-  url = "/about"
-  name = "About Us"
-  weight = 20
-
-[[menu.main]]
-  url = "#contact"
-  name = "Contact"
-  weight = 30
-
-[[menu.footer]]
-  url = "#"
-  name = "Link"
-  weight = 10
-
-[[menu.footer]]
-  url = "#"
-  name = "Long Link"
-  weight = 30
-
-[[menu.footer]]
-  url = "#"
-  name = "Tiny Link"
-  weight = 30
-
-[[menu.copyright_footer]]
-  url = "/about"
-  name = "About Us"
-  weight = 10
-
-[[menu.copyright_footer]]
-  url = "#"
-  name = "Another Link"
-  weight = 30
-
-#[[menu.footer_social]]
-#  weight = 20
-#  name = "twitter"
-#  pre = "fab fa-twitter"
-#  url = "https://twitter.com/AbsorbingChaos"
-
-#[[menu.footer_social]]
-#  weight = 30
-#  name = "linkedin"
-#  pre = "fab fa-linkedin-in"
-#  url = "https://www.linkedin.com/company/absorbingchaos"
-
-# [[menu.footer_social]]
-#  weight = 40
-#  name = "github"
-#  pre = "fab fa-github"
-#  url = "https://github.com/AbsorbingChaos"
+[Author]
+    name = "Jason Schrader"
+[Params]
+    logo = "logo.svg"
+[Params.BrandColor]
+    normal = "#273554"
+    light = "#525e81"
+    dark = "#000f2b"
+    shadow = "#0c002c"

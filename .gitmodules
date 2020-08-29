@@ -1,3 +1,6 @@
 [submodule "themes/syna"]
 	path = themes/syna
 	url = git@github.com:AbsorbingChaos/abc-syna.git
+[submodule "themes/sawmill"]
+	path = themes/sawmill
+	url = https://github.com/forestryio/sawmill.git
