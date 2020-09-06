@@ -12,11 +12,11 @@
     
     <item>
       <title></title>
-      <link>https://absorbingchaos.com/test1/</link>
+      <link>https://absorbingchaos.com/first_post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://absorbingchaos.com/test1/</guid>
-      <description>This is a test! Testing testing.</description>
+      <guid>https://absorbingchaos.com/first_post/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
   </channel>
