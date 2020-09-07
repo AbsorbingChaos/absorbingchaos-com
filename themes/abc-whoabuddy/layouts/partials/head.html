@@ -42,4 +42,27 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#283655" />
 
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "name": "Absorbing Chaos LLC",
+      "alternateName": "Absorbing Chaos",
+      "url": "{{ Site.baseURL }}",
+      "logo": "{{ Site.logo }}",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+19282352305",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": "en"
+      },
+      "sameAs": [
+        "https://twitter.com/AbsorbingChaos",
+        "https://github.com/AbsorbingChaos"
+      ]
+    }
+    </script>
+
 </head>
