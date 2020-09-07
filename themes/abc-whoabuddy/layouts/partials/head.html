@@ -1,0 +1,26 @@
+<head>
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SEO -->
+    <meta name="referrer" content="no-referrer" />
+    <meta name="description" content="{{ Site.description }}" />
+    <meta property="og:url" content="{{ .Site.baseURL }}" />
+    <meta property="og:title" content="{{ $title }}" />
+    <meta property="og:description" content="{{ Site.description }}" />
+    <meta property="og:image" content="{{ Site.logo }}" />
+    <meta property="og:image:secure_url" content="{{ Site.logo }}" />
+    <meta property="og:image:type" content="{{ Site.logo_type }}" />
+    <meta property="og:image:width" content="{{ Site.logo_width }}" />
+    <meta property="og:image:height" content="{{ Site.logo_height }}" />
+    <meta property="og:image:alt" content="{{ Site.logo_alt }}" />
+    <meta property="og:site_name" content="{{ $title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ALL_ALL" />
+    <link rel="canonical" href="{{ .Site.baseURL }}" />
+
+</head>
