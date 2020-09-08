@@ -1,0 +1,19 @@
+name: Deploy-CF-Prod
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy-CF-Prod
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Publish CF
+        uses: cloudflare/wrangler-action@1.2.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          environment: 'production'
