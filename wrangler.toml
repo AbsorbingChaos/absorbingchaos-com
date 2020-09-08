@@ -1,0 +1,12 @@
+name = "absorbingchaos-test"
+type = "webpack"
+account_id = "98288619169b23339dc74ce53fa0b5f1"
+workers_dev = true
+
+[site]
+bucket = "./public"
+
+[env.production]
+name = "absorbingchaos-com"
+zone_id = "df7d22039cf6039b6804aa1610d5964e"
+route = "absorbingchaos.com/*"
