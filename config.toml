@@ -2,7 +2,7 @@ baseURL = "https://absorbingchaos.com"
 languageCode = "en-us"
 theme = "abc-whoabuddy"
 
-[Site]
+[params]
   title = "ABC - Absorb Chaos - Release Potential"
   description = "Technology services inspired by and based on freedom, collaboration, transparency, integrity, and community."
   logo = "https://absorbingchaos.com/img/ABC-Logo-150-150.png"
