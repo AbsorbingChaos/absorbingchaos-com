@@ -10,5 +10,14 @@
 	<atom:link href="https://absorbingchaos.com/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Test</title>
+      <link>https://absorbingchaos.com/test/</link>
+      <pubDate>Tue, 08 Sep 2020 09:34:44 -0700</pubDate>
+      
+      <guid>https://absorbingchaos.com/test/</guid>
+      <description>This is a test! I figured, hey, why not try something new. It is the development branch after all!</description>
+    </item>
+    
   </channel>
 </rss>
