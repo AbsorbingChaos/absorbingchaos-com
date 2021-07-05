@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: absorbingchaos.com
+Token: 22583730314b59428eea714f566ae2b29dde7313fbd79218aafd9cadaf166bd4
